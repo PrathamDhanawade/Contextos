@@ -1,0 +1,18 @@
+# ContextOS — Render / retrieval-only API dependencies
+# Install: pip install -r requirements-api.txt
+#
+# No torch / transformers / sentence-transformers here.
+# Query embeddings go to EMBEDDING_SERVICE_URL (Modal all-mpnet-base-v2).
+# Local PDF ingestion still uses requirements.txt (full stack).
+
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+python-multipart==0.0.32
+
+supabase==2.31.0
+httpx==0.28.1
+
+groq==1.7.0

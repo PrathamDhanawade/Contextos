@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ronald_read_01",
+    "question": "Who was Ronald Read?",
+    "expected_terms": ["Ronald Read"],
+    "expected_pages": [10],
+    "category": "entity"
+  },
+  {
+    "id": "ronald_read_02",
+    "question": "What did Ronald Read invest his money in?",
+    "expected_terms": ["Ronald Read", "blue chip stocks"],
+    "expected_pages": [10],
+    "category": "factual"
+  },
+  {
+    "id": "ronald_read_03",
+    "question": "How did Ronald Read become wealthy?",
+    "expected_terms": ["Ronald Read"],
+    "expected_pages": [10],
+    "category": "semantic"
+  },
+  {
+    "id": "ronald_read_04",
+    "question": "Where did Ronald Read donate his money?",
+    "expected_terms": ["Ronald Read", "hospital", "library"],
+    "expected_pages": [10],
+    "category": "factual"
+  },
+  {
+    "id": "fuscone_01",
+    "question": "Who was Richard Fuscone?",
+    "expected_terms": ["Richard Fuscone"],
+    "category": "entity"
+  },
+  {
+    "id": "comparison_01",
+    "question": "How were Ronald Read and Richard Fuscone different?",
+    "expected_terms": ["Ronald Read", "Richard Fuscone"],
+    "category": "comparison"
+  },
+  {
+    "id": "bill_gates_01",
+    "question": "What does the book say about Bill Gates?",
+    "expected_terms": ["Bill Gates"],
+    "category": "entity"
+  },
+  {
+    "id": "bill_gates_02",
+    "question": "What role did Lakeside School play in Bill Gates's success?",
+    "expected_terms": ["Bill Gates", "Lakeside"],
+    "category": "semantic"
+  },
+  {
+    "id": "bill_gates_03",
+    "question": "Who was Kent Evans and how was he connected to Bill Gates?",
+    "expected_terms": ["Kent Evans", "Bill Gates"],
+    "category": "relationship"
+  }
+]
